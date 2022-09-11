@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "896094053131",
+    "project_id": "gorunning-446e0",
+    "storage_bucket": "gorunning-446e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896094053131:android:f7c99c43f6239b3461380e",
+        "android_client_info": {
+          "package_name": "com.gorunning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896094053131-q2vi7mkc7o982p9ue00c0d6g22qccbll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gorunning",
+            "certificate_hash": "e597b03272a0edbc38bd1fbe8f211df866482497"
+          }
+        },
+        {
+          "client_id": "896094053131-9loq5u7qkd10s0jrb58ceeg7bb645234.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6IexMjkqfwGLLggBSOZVCINu7JcyBu28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896094053131-9loq5u7qkd10s0jrb58ceeg7bb645234.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
