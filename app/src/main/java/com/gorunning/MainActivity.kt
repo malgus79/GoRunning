@@ -2125,6 +2125,20 @@ class MainActivity : AppCompatActivity(),
         //fun que crea la notificacion
         with(NotificationManagerCompat.from(this)) {
             // notificationId is a unique int for each notification that you must define
+            if (ActivityCompat.checkSelfPermission(
+                    mainContext,
+                    Manifest.permission.POST_NOTIFICATIONS
+                ) != PackageManager.PERMISSION_GRANTED
+            ) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return
+            }
             notify(notificationId, builder.build())
         }
         //mpNotify?.start()  //TODO fixeado
